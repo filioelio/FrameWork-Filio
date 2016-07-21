@@ -3,9 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Framework MVC</title>
+	<?=$helper->css('ed-grid')?>
+	<?=$helper->css('header')?>
 </head>
 <body>
-	<h1>Bienvenido al framework MVC</h1>
-	<span>Robert BJ HC</span>
+	<?=$this->view('Template/Header')?>
+	<?=$this->view('Template/Nav')?>
+	<div class="grupo centro-contenido">
+		<h1>Bienvenido al framework MVC</h1>
+		<span>Filio Carrasco Sauñe</span>
+	</div>	
 </body>
 </html>
