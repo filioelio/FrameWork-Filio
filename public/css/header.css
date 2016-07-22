@@ -34,4 +34,31 @@
 }
 .mnav_item:hover{
 	border-bottom: 6px solid red;
+	transition: all ease-out .5s;
+}
+.menu_footer{
+	background: green;
+	padding: 1.5em;
+	color: #fff;
+	margin-top: 1em;
+}
+.menu_sociales a{
+	border-radius: 50%;	
+	color: #FFF;
+	display: inline-block;
+	line-height: 2;
+	padding: 0 .5em;
+	transition: all ease-in .5s;
+}
+.icon-facebook:hover{
+	background: #3D5B99; 
+}
+.icon-twitter:hover{
+	background: #55ACEE; 
+}
+.icon-whatsapp:hover{
+	background: #11EB26; 
+}
+.icon-rss:hover{
+	background: #FFAA58; 
 }

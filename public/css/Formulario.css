@@ -1,0 +1,30 @@
+#formulario{
+	box-shadow: 0px 0px 5px rgba(0,0,0,.9);
+	border-radius: 5px;
+	width: 50%;
+	margin: 0 auto;
+	padding: .5em;
+	margin-top: 2em;
+}
+
+#formulario .form_grupo{
+	padding: .5em;
+}
+#formulario .form_grupo .form-control{
+	width: 80%;
+	height: 2em;
+}
+#formulario .form_grupo .form-boton{
+	width: 50%;
+	height: 2.5em;
+	background: #061692;
+	color: #fff;
+	font-family: algerian;
+}
+/* hasta movil */
+@media all and (max-width:500px){
+	#formulario{
+		width: 95%;
+		transition: all ease-in .5s;
+	}
+}
