@@ -16,7 +16,7 @@
 		    	<span class="form_titulo">Iniciar sesion</span>
 		  	</div>
 			<div class="form_grupo">
-		    	<span class="form_exito"></span>
+		    	<span class="form_exito"><?=$helper->FormatDateTime($fecha)?></span>
 		  	</div>
 			<div class="form_grupo">
 		    	<input type="email" class="form-control" placeholder="Email">

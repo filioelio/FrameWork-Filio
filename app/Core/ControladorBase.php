@@ -1,7 +1,6 @@
 <?php namespace App\Core;
 
-    use App\Config\VariablesGlobales;
- 
+    use App\Config\VariablesGlobales; 
 
     class ControladorBase
     {
@@ -9,12 +8,10 @@
         /*        CONSTRUCTOR         */
         
         public function __construct() 
-        {
-            
-        }
+        { }
         
         /*    **    */
-
+        
         /*        MONTAR LA VISTA         */
         
         public function view($vista, $datos = array())
@@ -23,7 +20,7 @@
             {
                 ${$id_assoc} = $valor; 
             }
-
+            
             $helper = new HelpersView();
             
             require_once '../app/View/' . $vista . 'View.php';

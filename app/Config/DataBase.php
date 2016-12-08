@@ -23,13 +23,13 @@
 		
 		/*		CONTRASEÑA BD 		*/
 		
-		public static $pass     = "";
+		public static $pass     = "Secret-1992";
 		
 		/*	**	*/
 		
 		/*		NOMBRE DE LA BD 		*/
 		
-		public static $database = "";
+		public static $database = "hopedaje";
 		
 		/*	**	*/
 		

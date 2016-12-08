@@ -1,8 +1,9 @@
 <?php namespace App\Core;
 	
 	use App\Config\VariablesGlobales;
+    use App\Helpers\FormatDate;
 
-    class HelpersView
+    class HelpersView extends FormatDate
     {
         
         /*		BRINDA EL URL PARA LAS VISTAS 		*/
@@ -57,33 +58,7 @@
         
         /*    **    */
 
-        /*        CONVERT FECHA AMIGABLE         */
-        
-        public function fecha_amigable($fecha)
-        {
-            $meses = array( 
-                1  => 'Enero',
-                2  => 'Febrero',
-                3  => 'Marzo',
-                4  => 'Abril',
-                5  => 'Mayo',
-                6  => 'Junio',
-                7  => 'Julio',
-                8  => 'Agosto',
-                9  => 'Setiembre',
-                10 => 'Octubre',
-                11 => 'Noviembre',
-                12 => 'Diciembre',
-            );
-            //intval
-            $date_time = explode(" ", $fecha);
-            $date      = explode('-', $date_time[0]);
-            $time      = explode(':', $date_time[1]);
-            
-            return $date[2] . ' de ' . $meses[intval($date[1])] . ' del ' . $date[0] . ' ' . $time[0] . ':' . $time[1];
-        }
-        
-        /*    **    */
+
 
         //Helpers para las vistas
     }
